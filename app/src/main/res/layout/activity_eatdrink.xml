@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".regions">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="408dp"
+            android:layout_height="259dp"
+            app:srcCompat="@drawable/foods"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Eat and Drink"
+            android:textColor="#005BA3"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="When you go to restaurants, always ask for menu or price if they do not provide one. While some of the well-established restaurants are surprisingly good value by Western standard, some of the random or less popular restaurants try to take advantage of tourists by ripping off up to 5 times of normal price."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/osh"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Osh is the national dish. It's made of rice, carrots, onions, and mutton, and you will eat it if you go to Uzbekistan. Each region has its own way of cooking plov, so you should taste it in different places. According to the legend plov was invented by the cooks of Alexander the Great. Plov can also be made with peas, carrots, raisins, dried apricots, pumpkins or quinces. Often spices as peppers, crushed or dried tomatoes are added."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/chuchvara"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Chuchvara - similar to ravioli and stuffed with mutton and onions (aka 'pelmeni' in Russian)."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Manti - lamb and onion filled dumpling-like food, often with onions, peppers and mutton fat."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/somsa"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text='Somsas, which are pastry pockets filled with beef, mutton, pumpkin or potatoes. In spring time "green somsas" are made from so-called "yalpiz" a kind of grass which grows in the mountains and in rural parts of regions. And the amazing thing is people just pick them up for free and make tasty somsas. You can find somsas being cooked and sold on the streets.'
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/lagman"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Lagman - thick soup with meat, potatoes, spices, vegetables and pasta. By right, it should include 50 ingredients. Often carrot, red beet, cabbage, radish, garlic, tomatoes, peppers and onions are added. The noodles should be very thin."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            app:srcCompat="@drawable/shashlik"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Shashlik - grilled meat. Usually served only with onions. Veal or mutton is marinated in salt, peppers and vinegar and eight to ten pieces of meat are grilled on a spit over the open fire."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Bread - Uzbeks eat lots of bread (in uzbek its called non). Round bread is called lepioshka. You can buy it anywhere, while in the bazar it costs around 400 sum. Samarkand is very famous for the bread. The characteristic Samarkand bread obi-non is traditionally baked in clay furnaces. Bread is served to every meal."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Mastava. rice soup with pieces of onion, carrots, tomatoes, peas and eventually wild plums"
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Shurpa. soup of mutton (sometimes beef), vegetables"
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Bechbarmak. a speciality of the nomad Kazakhs, boiled meat of sheep or ox and pieces of liver, served with onions, potatoes and noodles"
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Being an historic crossroads and part of numerous empires, Uzbek food is very eclectic in its origins. Indian, Iranian, Arab, Russian, and Chinese influences are present in this unique cuisine."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

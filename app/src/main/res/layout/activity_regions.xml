@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".regions">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="408dp"
+            android:layout_height="272dp"
+            app:srcCompat="@drawable/uzbekistanmap"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uzbekistan has 13 regions (provinces), bordering Kazakhstan in the north, Kyrgyzstan and Tadjikistan in the east, Turkmenistan in the west and Afghanistan in the south. The Province of Andijan is situated in the eastern part of the Fergana Valley. It covers an area of 4,200 square kilometers."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            app:srcCompat="@drawable/ferganavalley"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Ferghana Valley"
+            android:textColor="#005BA3"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Fergana Valley is a valley in Central Asia spread across eastern Uzbekistan, southern Kyrgyzstan and northern Tajikistan. It is the most fertile and populous part of country."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="297dp"
+            app:srcCompat="@drawable/hilton"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="532dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Tashkent Region"
+            android:textColor="#005BA3"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="961dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='Tashkent is the capital of and the most cosmopolitan city in Uzbekistan. It was noted for its tree-lined streets, numerous fountains, and pleasant parks, at least until the tree-cutting campaigns initiated in 2009 by the local government.  Since 1991, the city has changed economically, culturally, and architecturally. New development has superseded or replaced icons of the Soviet era.  Buildings from the Soviet era have been replaced with new modern buildings. The "Downtown Tashkent" district includes the 22-story NBU Bank building, international hotels, the International Business Center, Hilton Hotel and the Plaza Building.'
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+            app:srcCompat="@drawable/boysun"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Southern Uzbekistan"
+            android:textColor="#005BA3"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="961dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Southern Uzbekistan is the southern, Tajik-dominated, mountainous portion of Uzbekistan to the south of Samarkand. Parts of it are in the region historically known as Bactria. The southern part of Uzbekistan shares borders with Turkmenistan, Afghanistan and Tajikistan, and is a land of culture and history as rich and diverse as its environment. Travelers to the south of Uzbekistan are sure to be delighted by the area's beauty, charm and hospitality."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

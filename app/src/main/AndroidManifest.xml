@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guideuz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".about" />
+        <activity android:name=".gallery" />
+        <activity android:name=".culture" />
+        <activity android:name=".directions" />
+        <activity android:name=".emergency" />
+        <activity android:name=".numbers" />
+        <activity android:name=".greetings" />
+        <activity
+            android:name=".common"
+            android:label="@string/title_activity_common"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".phrasebook" />
+        <activity android:name=".eatdrink" />
+        <activity android:name=".NationalParks" />
+        <activity android:name=".cities" />
+        <activity
+            android:name=".PhrasebookListActivity"
+            android:label="@string/title_phrasebook_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PhrasebookDetailActivity"
+            android:label="@string/title_phrasebook_detail"
+            android:parentActivityName=".PhrasebookListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.guideuz.PhrasebookListActivity" />
+        </activity>
+        <activity android:name=".regions" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".regions">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="408dp"
+            android:layout_height="272dp"
+            app:srcCompat="@drawable/zaamin"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Zaamin National Park"
+            android:textColor="#005BA3"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Zaamin National Park is in the Jizzakh province of Uzbekistan and on the northern slopes of the Turkistan Mountain Ridge which leads to Tajikistan. The easiest way to get there is by car and from Tashkent this will take around 5 hours. You can hire a car and drive this yourself. However, it will be much easier to hire a driver to take you, which can be done through your hotel in Tashkent. Your hotel can also likely help you find a guide that can take you hiking in the park."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            app:srcCompat="@drawable/ugam"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Ugam-Chatkal National Park"
+            android:textColor="#005BA3"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Just over an hour northeast of Tashkent by car lies Ugam-Chatkal National Park, an outdoor haven loaded with hiking and adventure-sport opportunities as well as more relaxing pursuits. The mountains here are not quite as extreme or scenic as the higher peaks around Almaty and Bishkek, but the activities are more accessible and at least as challenging."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            app:srcCompat="@drawable/alisher"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Alisher Navoi National Park"
+            android:textColor="#005BA3"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Alisher Navoi, also known as bag Milly, is a big garden with a number of monuments inside. The most interesting one is the Statue of Alisher Navoi which adorns the central part of the park. There is a very large man-made pool where kids could go for a swim. It is a good place to chill for some time. In addition to being a great landmark, this is an historically significant spot. The river which flows past in neatly cemented banks makes it a popular picnic and family outing spot"
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            app:srcCompat="@drawable/charvak"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="161dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Charvak Reservoir"
+            android:textColor="#005BA3"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="580dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Lake Charvak is a popular resort in Tashkent region and thousands of holiday makers from all over Uzbekistan and neighbouring countries visit the reservoir. The place has some breathtaking views with blue mountains surrounded by the beautiful view of the charvak lake .the lake provide boat facilities and also has good indian Resturant and above all you will find lots of Uzbekistan local ppl coming here to spend some quality time with their families! So if you looking for peaceful holiday this is place for you."
+            android:textColor="@color/colorPrimaryDark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

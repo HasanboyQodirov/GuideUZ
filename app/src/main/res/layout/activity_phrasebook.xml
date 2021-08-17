@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/phrasebookback"
+    tools:context=".phrasebook">
+
+
+    <Button
+        android:id="@+id/btnCommon"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="@font/doppio_one"
+        android:shadowRadius="@android:integer/config_mediumAnimTime"
+        android:text="Common"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnGreeting"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="@font/doppio_one"
+        android:shadowRadius="@android:integer/config_mediumAnimTime"
+        android:text="Greetings"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="@font/doppio_one"
+        android:shadowRadius="@android:integer/config_mediumAnimTime"
+        android:text="Numbers"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="@font/doppio_one"
+        android:shadowRadius="@android:integer/config_mediumAnimTime"
+        android:text="Emergency"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnDirections"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="@font/doppio_one"
+        android:shadowRadius="@android:integer/config_mediumAnimTime"
+        android:text="Directions"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+</LinearLayout>

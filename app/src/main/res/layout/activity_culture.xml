@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".culture">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="408dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/festival"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Uzbek Culture"
+                android:textColor="#005BA3"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="580dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="The culture of Uzbekistan is vibrant and unique—it was formed over thousands of years, incorporating the traditions and customs of the peoples who at various times inhabited the territory of modern Uzbekistan. The ancient Persians, Greeks, Arabs, Chinese, Russians, and nomadic Turkic tribes have all contributed to Uzbek culture, which is considered the epitome of Central Asian, crossroads cultures. The traditions reflecting the multinational nature of Uzbekistan are omnipresent in its music, dance, painting, applied arts, language, cuisine, and clothing. Each region of Uzbekistan has its own unique shades as well, which are most clearly manifested in national dress and local dialects."
+                android:textColor="@color/colorPrimaryDark"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/arts"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Arts"
+                android:textColor="#005BA3"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="580dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Art in Uzbekistan reflects the distinctive history of this country on the canvases of its masters. The wall painting at Afrosiab, for example, is one of the best examples of pre-Mongol art in the region. With the advent of Islam, however, the image of a man was banned, and the use of abstract painting grew. The art of miniatures appeared later and reached perfection over time, becoming one of the most recognizable trends in the visual arts of Uzbekistan today. Kamoliddin Behzod (16th century), Ahmad Donish (19th century), and Abdulkhalik-Mahmum (20th century) are rightly considered to be Uzbekistan’s masters of miniatures. In the 20th century, there was a dramatic shift in artistic style borne out of the influence of Russian ascetics, among whom Igor Savitsky was particularly famous for creating a unique museum of painting in Nukus. In the 21st century, the painting of Uzbekistan joined global trends, while also maintaining its unique features."
+                android:textColor="@color/colorPrimaryDark"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:srcCompat="@drawable/literature"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Literature"
+                android:textColor="#005BA3"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="580dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="The history of literature in Uzbekistan originates from oral traditions and folklore–legends, epics and fairy tales. The tales of the bogatyr (knight-errant) Alpamysh and the inventive Nasreddin Afandi are an integral part of Uzbek culture. In the Middle Ages poets and writers whose names are now known to every inhabitant of the country appeared in Uzbekistan: Ahmad Yugnaki, Alisher Navoi, Babur, Jami, and others. The literary heritage of Uzbekistan from that era is full of poetry and most works explore the themes of love, happiness, and wisdom. In the 19th and 20th centuries, satirical and more serious, dramatic works became popular in Uzbekistan. The most famous Uzbek writers of the 20th century are Furkat, Gafur Ghulam, Mukimi, Hamid Alimzhan, Zulfiya, Abdullah Kahhar, and several dozen others. The modern literature of Uzbekistan is very diverse, but unfortunately not as popular as the classical canon."
+                android:textColor="@color/colorPrimaryDark"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:srcCompat="@drawable/music"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Music"
+                android:textColor="#005BA3"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="580dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="The music of Uzbekistan, with its close ties to folklore and Uzbek poetry, is a unique manifestation of the ancient culture of the Uzbek people. Shashmak, a special genre of music in Uzbekistan and Tajikistan, which was included by UNESCO in the list of masterpieces of oral and intangible cultural heritage of mankind, is especially noteworthy. Classical and modern popular music have some similarities with generally accepted world music but maintain their own unique flavor due to the special sound of Uzbek musical instruments. The most famous musical instruments of Uzbekistan are karnay, surnay, dutar and doira. Today, Uzbek folk music can be heard at weddings, gala events, concerts, as well as at the famous Sharq Taronalari Festival, which is held every two years in Samarkand. "
+                android:textColor="@color/colorPrimaryDark"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:srcCompat="@drawable/crafts"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Folk Crafts"
+                android:textColor="#005BA3"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="580dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Arts and crafts are one of the most popular parts of Uzbek culture, giving tourists a lot of options when choosing souvenirs. Uzbek artisans pass on the secrets of craftsmanship from generation to generation, and their works are of high quality and extraordinary elegance. Blacksmiths, potters, weavers, carvers, and many others create works of art from silk, clay, wood, and metal that are recognizable throughout the world thanks to their smooth lines, geometrically perfect patterns, and harmony of form. The most famous masters of Uzbekistan are the ceramists of Gijduvan and Rishtan, the blacksmiths of Bukhara and Chust, the weavers of Margilan, and the winemakers of Samarkand. Artisans often arrange master classes in their workshops and show collections of their works in which you can get acquainted with the best creations of their fathers and grandfathers."
+                android:textColor="@color/colorPrimaryDark"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="293dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
